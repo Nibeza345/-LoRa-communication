@@ -21,8 +21,11 @@ void setup() {
   }
   delay(100);
   Serial.println("LoRa Chat!");
+  
   // Manual reset
+  
   digitalWrite(RFM95_RST, LOW);
+  
   delay(10);
   digitalWrite(RFM95_RST, HIGH);
   delay(10);
