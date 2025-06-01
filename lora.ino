@@ -4,9 +4,13 @@
 #define RFM95_CS 8
 #define RFM95_RST 4
 #define RFM95_INT 7
+
 // LoRa frequency
 #define RF95_FREQ 950.0
+
+
 // Singleton instance of the radio driver
+
 RH_RF95 rf95(RFM95_CS, RFM95_INT);
 void setup() {
   pinMode(RFM95_RST, OUTPUT);
