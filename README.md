@@ -46,6 +46,6 @@ Install the RadioHead library by:
 #define RFM95_CS 8
 #define RFM95_RST 4
 #define RFM95_INT 7
-#define RF95_FREQ 950.0 // Change this according to your module's region
+#define RF95_FREQ 950.0
 
 !!!!!Remember to keep the Latitude and Longitude noted so that You can have accurate measurements
