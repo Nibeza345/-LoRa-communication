@@ -64,6 +64,8 @@ void loop() {
   if (Serial.available()) {
     String input = Serial.readStringUntil('\n');
     input.trim();  // Remove any trailing newline or spaces
+
+    //user input
     if (input.length() > 0) {
       Serial.print("Sent: ");
       Serial.println(input);
